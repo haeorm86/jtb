@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media (max-width: 736px) {
+  #wrapper {
+    width: 100%;
+    margin: 0;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+
+  #contact .input-area {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  #contact h2 {
+    text-align: center;
+  }
+
+  #contact h2 small {
+    float: none;
+    display: block;
+    font-size: 9pt;
+    padding-top: 0;
+
+  }
+
+  #contact .input-area table {
+    width: 100%;
+    margin: 20px 0;
+  }
+  #contact .input-area th {
+    width: 100%;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+    font-weight: normal;
+    vertical-align: top;
+    text-align: center;
+    display: block;
+  }
+  #contact .input-area tr:last-child th {
+    border-bottom: 1px solid #fff;
+  }
+  #contact .input-area td {
+    margin: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+    display: block;
+    text-align: center;
+  }
+
+  #contact .input-area td #airport,#hotel,#rank,#sheet {
+    display: block;
+    margin: 5px auto;
+  }
+
+  #contact .input-area td #address1 {
+    width: 90%;
+  }
+
+  #contact input[type=submit] {
+    width: 80%;
+  }
+
+  #contact .message-area p.message {
+    text-align: center;
+    padding: 0 20px;
+  }
+}

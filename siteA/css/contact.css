@@ -1,0 +1,146 @@
+@charset "UTF-8";
+
+/* 各ページレイアウト */
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝","メイリオ", serif;
+}
+
+#wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #000;
+}
+header {
+  height: 100px;
+  background-color: #000;
+  background-image: url("../img/header.png");
+  background-repeat: no-repeat;
+}
+header h1 {
+	padding-left: 10px;
+  font-size: 20pt;
+  color: #0af;
+  line-height: 100px;
+  text-align: left;
+}
+#contact {
+  margin-top: 2em;
+}
+#contact .input-area {
+  width: 80%;
+  margin: 0 auto;
+}
+#contact h2 {
+  background-color: #666;
+  background:-webkit-gradient(linear, left top, right top, from(#191e32), to(#000));
+  background:-webkit-linear-gradient(left, #191e32, #000);
+  background:-moz-linear-gradient(left, #191e32, #000);
+  background:-o-linear-gradient(left, #191e32, #000);
+  background:linear-gradient(to right, #191e32, #000);
+
+  color: #fff;
+  font-weight: 100;
+  padding: 10px 10px 10px;
+}
+#contact h2 small {
+  float: right;
+  font-size: 9pt;
+  padding-top: 5px;
+}
+#contact .input-area table {
+  width: 100%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+#contact .input-area th {
+  width: 25%;
+  padding: 20px;
+  background-color: #000;
+  border-bottom: 1px solid #fff;
+  font-weight: normal;
+  vertical-align: top;
+  text-align: left;
+}
+#contact .input-area tr:last-child th {
+  border-bottom: 0;
+}
+#contact .input-area td {
+  margin: 0 5px;
+  padding: 20px;
+  border-bottom: 1px solid #fff;
+}
+#contact .input-area tr:last-child td {
+  border-bottom: 0;
+}
+#contact .input-area td input[type=text] {
+  font-size: 9pt;
+  padding: 1px 3px;
+}
+#contact .input-area td #address1,#address2 {
+  margin-top: 7px;
+}
+#contact .input-area td #share {
+  background-color: #aaa;
+}
+#contact  p {
+  text-align: center;
+}
+#contact .message-area p.message {
+  margin: 15px 0;
+  text-align: justify;
+  font-size: 12pt;
+  line-height: 40px;
+}
+#contact .message-area p.toplink {
+  font-size: 10pt;
+  text-align: center;
+}
+#contact #submit {
+  width: 360px;
+  height: 60px;
+  line-height: 55px;
+  cursor: pointer;
+  background-color: #043855;
+  font-size: 24px;
+  color: #fff;
+  margin: 20px auto 0;
+  border-radius: 20px;
+  box-shadow: 1px 0px 10px 1px #fff;
+}
+#contact #submit:hover {
+  background-color: #369;
+  color: #cde;
+  box-shadow: 1px 0px 10px 1px #999;
+}
+#contact #return {
+  width: 360px;
+  height: 60px;
+  line-height: 55px;
+  cursor: pointer;
+  background-color: #900;
+  font-size: 24px;
+  color: #fff;
+  margin: 20px 10px 0 0;
+  border-radius: 20px;
+  box-shadow: 1px 0px 10px 1px #fff;
+}
+#contact #return:hover {
+  background-color: #966;
+  color: #edc;
+  box-shadow: 1px 0px 10px 1px #ccc;
+}
+
+footer {
+  height: 100px;
+  background-color: #000;
+  margin-top: 80px;
+  padding: 10px;
+  border-top: 1px solid #fff;
+}
+footer p {
+  font-size: 9pt;
+  color: #ccc;
+  text-align: center;
+}

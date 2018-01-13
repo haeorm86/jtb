@@ -1,0 +1,638 @@
+@charset "UTF-8";
+
+@media screen and ( min-width: 2000px) {
+	.width_2000 {
+		width: 2000px;
+	}
+}
+@media screen and ( max-width: 1200px) {
+	#title_wrap {
+		width: 100%;
+	}
+}
+@media screen and ( min-width: 960px) {
+	#bottom_sponsor_list {
+		display: none;
+	}
+	#course_table_smart {
+		display: none;
+	}
+}
+
+@media screen and ( min-width: 737px) and ( max-width: 959px ) {
+	body {
+		width: 100%;
+		font-size: 1em;
+	}
+	header {
+		width: 100%;
+	}
+	iframe {
+		width: 100%;
+		height: 240px;
+	}
+	
+	#sponsor_list_wrap {
+		width: 100%;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+
+	#wrapper_course {
+		width: 100%;
+		background-size: 100% 100%;
+	}
+
+	#title_wrap {
+		width: 100%;
+	}
+
+	.bx-controls-direction {
+		display:none !important;
+	}
+
+	#bottom_sponsor_list {
+		display: none;
+	}
+
+	#tour_p div {
+		font-size: 0.8em;
+	}
+
+	#airport div {
+		font-size: 0.8em;
+	}
+
+	#min_tourist div {
+		font-size: 0.8em;
+	}
+
+	.sm_left {
+		padding-top: 2em;
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+	
+	.sm_right {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+	}
+
+	.sm_right img {
+		margin-top: 0.5em;
+	}
+
+	.casino_left {
+		padding-top: 2em;
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+	
+	.casino_right {
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+
+	.casino_right img {
+		margin-top: 0.5em;
+	}
+
+	.rwd_dis {
+		display: none;
+	}
+
+}
+
+@media ( max-width: 736px ) {
+
+	body {
+		width: 100%;
+		font-size: 14px;
+	}
+	header {
+		width: 100%;
+	}
+	
+	header h1 {
+		text-align: center;
+	 }
+
+	iframe {
+		width: 480px;
+		height: 500px;
+		margin: 0 auto;
+	}
+
+	#wrapper {
+		width: 100%;
+	}	
+
+	#wrapper_course {
+		width: 100%;
+		background-size: 120% 100%;
+	}
+
+	#sponsor_list_wrap {
+		width: 100%;
+	}
+
+	#airport_1, #airport_2, #airport_3,
+	#min_tourist_1, #min_tourist_2, #min_tourist_3 {
+		text-align: left;
+	}
+
+	#top_sponsor_list {
+		display: none;
+	}
+
+	#title_wrap {
+		width: 100%;
+	}
+
+	#notice_face {
+		height: auto;
+	}
+
+	#notice {
+		display: none;
+	}
+
+/*
+	#notice {
+		height: 25%;
+		float: none;
+		width: 96%;
+		margin:0 auto;
+	}
+
+	#notice_text {
+		position: relative;
+		top: 15%;
+	}
+*/
+	.mg_info {
+		margin: 0 15px;
+		padding: 10px 0;
+	}
+
+	#facebook{
+		float: none;
+		width: 100%;
+		text-align:center;
+		margin-top: 1.5em;
+	}
+
+	#facebook img{
+		width: 96%;
+		height: auto;
+	}
+
+	#art_left_1 {
+		float: none;
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	#art_right_1 {
+		float: none;
+		width: 96%;
+		margin: 0 auto;
+		margin-top: 1.5em;
+	}
+
+	#art_left_2 {
+		float: none;
+		width: 96%;
+		margin: 0 auto;
+	}
+
+	#art_right_2 {
+		float: none;
+		width: 96%;
+		margin: 0 auto;
+		margin-top: 1.5em;
+	}
+
+	#opening_mc {
+		height: auto;
+	}
+
+	#opening {
+		float: none;
+		width: 100%;
+		margin-top: 1.5em;
+	}
+
+	#opening img {
+		width: 96%;
+	}
+
+	#opening_sub_1_text {
+		width: 98%;
+		margin-left: 2%;
+	}
+
+	#opening_sub_1 {
+		float: none;
+		width: 100%;
+		margin-top: 1.5em;
+	}
+
+	#opening_sub_2_text {
+		width: 98%;
+		margin-left: 2%;
+	}
+
+	#opening_sub_2 {
+		float: none;
+		width: 100%;
+		margin-top: 1.5em;
+	}
+
+	#mc {
+		float: none;
+		width: 100%;
+		margin-top: 1.5em;
+	}
+
+	#mc img {
+		width: 96%;
+	}
+
+	#mc_text {
+		width: 98%;
+		margin-left: 2%;
+	}
+
+	#contact {
+		height: auto;
+		margin-bottom: 2em;
+		margin-top: 4em;
+	}
+
+	#contact_sub_1 {
+		float: none;
+		width: 98%;
+		margin-top: 1.5em;
+		margin-right: 0px;
+		width: 98%;
+		margin-left: 2%
+	}
+
+	#contact_sub_2 {
+		float: none;
+		width: 98%;
+		margin-top: 1.5em;
+		margin-right: 0px;
+		margin-left: 2%
+	}
+
+	#contact_sub_3 {
+		float: none;
+		width: 98%;
+		margin-top: 1.5em;
+		margin-left: 2%
+	}
+
+	.bx-controls-direction {
+		display:none !important;
+	}
+
+	#sponsor_list img {
+		height: 80%;
+	}
+
+	#sponsor_wrap {
+		width: 96%;
+		margin: 0 auto;
+	}
+
+
+
+	/* siteA.html */
+
+	#course_title {
+		width: 27%;
+	}
+
+	.cont_left {
+		width: 100%;
+		margin-right: 0%;
+		float: none;
+	}
+
+	.cont_right {
+		width: 100%;
+		clear: right;
+	}
+
+	.mg_b_3em_sp {
+		margin-bottom: 3em;
+	}
+
+	#flight_left {
+		width: 100%;
+		float:none;
+
+	}
+
+	#flight_right {
+		width: 100%;
+		float:none;
+		margin-top: 0px;
+	}
+
+	#place_left {
+		width: 100%;
+		float:none;
+		text-align:center;
+	}
+
+	#place_right {
+		width: 98%;
+		float:none;
+		margin-top: 1em;
+		margin-left : 2%;
+	}
+
+	#place {
+		height: auto;
+	}
+
+	#place img {
+		width: 96%;
+	}
+
+	#hotel img {
+		width: 90%;
+	}
+
+	#hotel div {
+		width: 100%;
+		float:none;
+		margin-top: 1em;
+		text-align:center;
+		margin-right: 0%;
+	}
+
+	#tour_p div {
+		font-size: 0.7em;
+	}
+
+	#airport div {
+		font-size: 0.7em;
+	}
+
+	#min_tourist div {
+		font-size: 0.7em;
+	}
+
+	.tour_p_l {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+	}
+
+	.tour_p_r {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+	}
+
+	#airport_1 {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+		border:0px;
+	}
+
+	#airport_2 {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+		border:0px;
+	}
+
+	#airport_3 {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+	}
+
+	#period {
+		width: 100%;
+		margin-top: 1em;
+	}
+	#period_1 {
+		background-color: #2c260a;
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	#period_2 {
+		background-color: #484034;
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	#period_3 {
+		background-color: #6c6052;
+		display: block;
+		width: 100%;
+		padding: 10px 0;
+	}
+
+	.sub_title {
+		width: 35% !important;
+	}
+
+	#min_tourist_1 {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+		border:0px;
+	}
+
+	#min_tourist_2 {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+		border:0px;
+	}
+
+	#min_tourist_3 {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+	}
+
+	#course_table {
+		display: none;
+	}
+
+	#check {
+		font-size: 0.7em;
+	}
+
+	.rwd_dis {
+		display: none;
+	}
+
+	.rwd_dis_b {
+		display: block;
+	}
+
+
+	#picked {
+		padding-left: 0px;
+	}
+
+	.sm_left {
+		padding-top: 2em;
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+	
+	.sm_right {
+		margin:0 auto;
+		width: 98%;
+		float:none;
+	}
+
+	.sm_right img {
+		margin-top: 0.5em;
+	}
+
+	.casino_left {
+		padding-top: 2em;
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+	
+	.casino_right {
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+
+	.casino_right img {
+		margin-top: 0.5em;
+	}
+	
+	#end_l {
+		padding-top: 2em;
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+
+	#end_r {
+		padding-top: 1em;
+		margin:0 auto;
+		width: 98%;
+		float:none;	
+	}
+
+	#end_cont {
+		height: 30em;
+	}
+
+
+}
+
+@media screen and ( min-width: 421px) and ( max-width: 550px ) {
+	iframe {
+		width: 80%;
+		height: 500px;
+		margin: 0 auto;
+	}
+
+	#wrapper {
+		width: 100%;
+	}
+
+	#wrapper_course {
+		width: 100%;
+		background-size: 120% 100%;
+	}
+
+
+}
+
+
+@media screen and ( min-width: 320px) and ( max-width: 420px ) {
+
+
+	#notice {
+		display: none;
+	}
+
+	#bottom_sponsor_list {
+		height: 15em;
+	}
+	.bottom_sponsor_h {
+		height: 5em;
+	}
+
+	.bottom_sponsor_h div {
+		line-height: 5em;
+	}	
+	
+	#sponsor_list_wrap {
+		width: 100%;
+	}
+
+	#submit_btn {
+		width: 90%;
+		border-radius: 20px;
+	}
+
+	#check {
+		height: 6em;
+		font-size: 1em;
+	}
+
+	#check div {
+		float: none;
+		width: 100%;
+		border: 0px solid;
+		margin: 1em 0 1em 0;
+	}
+
+	.rwd_dis {
+		display: none;
+	}
+
+	.rwd_dis_b {
+		display: block;
+	}
+
+	#picked {
+		padding-left: 0px;
+	}
+
+	iframe {
+		width: 80%;
+		height: 300px;
+		margin: 0 auto;
+	}
+
+	.sub_title {
+		width: 42% !important;
+	}
+	
+	#wrapper_course {
+		width: 100%;
+		background-size: 130% 100%;
+	}
+}
